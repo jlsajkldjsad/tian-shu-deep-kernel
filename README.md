@@ -1,2 +1,26 @@
-# tian-shu-deep-kernel
-Tianshu Deep Kernel 是一种全新的极简信号驱动内核架构，突破传统单体内核与微内核模式。   内核只发出标准化电信号，由硬件直接执行复杂逻辑，实现极小体积、超稳定、无需驱动的嵌入式和 IoT 内核解决方案。
+# Tianshu Deep Kernel
+
+## 简介
+Tianshu Deep Kernel 是一种全新的极简信号驱动内核架构，突破传统单体内核与微内核模式。  
+内核只发出标准化电信号，由硬件直接执行复杂逻辑，实现极小体积、超稳定、无需驱动的嵌入式和 IoT 内核解决方案。
+
+核心理念：
+- 极简：内核代码仅几 KB，无冗余模块  
+- 驱动层消失：信号直接驱动硬件，解决兼容性和安全问题  
+- 高稳定性：内核不参与复杂逻辑，硬件异常不会导致系统崩溃  
+- 文化特色：基于易经六十四卦设计指令集  
+
+## 架构图
+请参考 `docs/architecture.md` 中的图示
+
+## 目录结构
+- `docs/` ：文档和架构说明  
+- `examples/` ：最小可运行示例  
+- `fpga/` ：FPGA 相关代码与位流  
+- `tools/` ：汇编器、调试器等工具  
+- `LICENSE` ：开源协议
+
+## 快速开始
+1. 克隆仓库：
+```bash
+git clone https://github.com/yourusername/tian-shu-deep-kernel.git
