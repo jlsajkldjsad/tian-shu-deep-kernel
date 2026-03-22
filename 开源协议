@@ -1,7 +1,7 @@
 ## 2️⃣ docs/architecture.md
 
 ```markdown
-# Tianshu Deep Kernel 架构说明
+# 天枢深内核架构说明
 
 ## 核心思想
 - 内核不做复杂逻辑，仅输出标准化 6-bit 电信号  
